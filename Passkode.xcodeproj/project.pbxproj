@@ -16,6 +16,15 @@
 		91431DC02C63E95900F82CB4 /* WordGuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91431DBF2C63E95900F82CB4 /* WordGuesserTests.swift */; };
 		91431DCA2C63E95900F82CB4 /* WordGuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91431DC92C63E95900F82CB4 /* WordGuesserUITests.swift */; };
 		91431DCC2C63E95900F82CB4 /* WordGuesserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91431DCB2C63E95900F82CB4 /* WordGuesserUITestsLaunchTests.swift */; };
+		91431DD92C64659700F82CB4 /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 91431DD82C64659700F82CB4 /* wordlist.txt */; };
+		91751C7D2C6AEB8300E113A2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91751C7C2C6AEB8300E113A2 /* Game.swift */; };
+		91F94C562C6E4A03006C23C3 /* GuessResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F94C552C6E4A03006C23C3 /* GuessResultsView.swift */; };
+		91F94C582C6E4AC7006C23C3 /* GuessResultsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F94C572C6E4AC7006C23C3 /* GuessResultsView.xib */; };
+		91F94C5A2C6E5724006C23C3 /* GuessResultsLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F94C592C6E5724006C23C3 /* GuessResultsLetterView.swift */; };
+		91F94C5C2C6E5786006C23C3 /* GuessResultsLetterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F94C5B2C6E5786006C23C3 /* GuessResultsLetterView.xib */; };
+		91F94C5E2C6E9173006C23C3 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F94C5D2C6E9173006C23C3 /* UIView+Nib.swift */; };
+		91F94C642C6E9FC6006C23C3 /* LetterResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F94C632C6E9FC6006C23C3 /* LetterResultViewModel.swift */; };
+		91F94C662C6EA012006C23C3 /* GuessResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F94C652C6EA012006C23C3 /* GuessResultViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		91431DA52C63E95800F82CB4 /* WordGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91431DA52C63E95800F82CB4 /* Passkode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passkode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91431DA82C63E95800F82CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91431DAA2C63E95800F82CB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		91431DAC2C63E95800F82CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +53,20 @@
 		91431DB12C63E95900F82CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91431DB42C63E95900F82CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91431DB62C63E95900F82CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91431DBB2C63E95900F82CB4 /* WordGuesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGuesserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91431DBB2C63E95900F82CB4 /* PasskodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasskodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91431DBF2C63E95900F82CB4 /* WordGuesserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuesserTests.swift; sourceTree = "<group>"; };
-		91431DC52C63E95900F82CB4 /* WordGuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGuesserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91431DC52C63E95900F82CB4 /* PasskodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasskodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91431DC92C63E95900F82CB4 /* WordGuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuesserUITests.swift; sourceTree = "<group>"; };
 		91431DCB2C63E95900F82CB4 /* WordGuesserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuesserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91431DD82C64659700F82CB4 /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
+		91751C7C2C6AEB8300E113A2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		91F94C552C6E4A03006C23C3 /* GuessResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessResultsView.swift; sourceTree = "<group>"; };
+		91F94C572C6E4AC7006C23C3 /* GuessResultsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuessResultsView.xib; sourceTree = "<group>"; };
+		91F94C592C6E5724006C23C3 /* GuessResultsLetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessResultsLetterView.swift; sourceTree = "<group>"; };
+		91F94C5B2C6E5786006C23C3 /* GuessResultsLetterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuessResultsLetterView.xib; sourceTree = "<group>"; };
+		91F94C5D2C6E9173006C23C3 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		91F94C632C6E9FC6006C23C3 /* LetterResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterResultViewModel.swift; sourceTree = "<group>"; };
+		91F94C652C6EA012006C23C3 /* GuessResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessResultViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +107,9 @@
 		91431DA62C63E95800F82CB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91431DA52C63E95800F82CB4 /* WordGuesser.app */,
-				91431DBB2C63E95900F82CB4 /* WordGuesserTests.xctest */,
-				91431DC52C63E95900F82CB4 /* WordGuesserUITests.xctest */,
+				91431DA52C63E95800F82CB4 /* Passkode.app */,
+				91431DBB2C63E95900F82CB4 /* PasskodeTests.xctest */,
+				91431DC52C63E95900F82CB4 /* PasskodeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,11 +117,16 @@
 		91431DA72C63E95800F82CB4 /* WordGuesser */ = {
 			isa = PBXGroup;
 			children = (
+				91F94C5D2C6E9173006C23C3 /* UIView+Nib.swift */,
 				91431DA82C63E95800F82CB4 /* AppDelegate.swift */,
 				91431DAA2C63E95800F82CB4 /* SceneDelegate.swift */,
+				91F94C672C6EA04B006C23C3 /* View Models */,
+				91F94C682C6EA06F006C23C3 /* Views */,
+				91751C7C2C6AEB8300E113A2 /* Game.swift */,
 				91431DAC2C63E95800F82CB4 /* ViewController.swift */,
 				91431DAE2C63E95800F82CB4 /* Main.storyboard */,
 				91431DB12C63E95900F82CB4 /* Assets.xcassets */,
+				91431DD82C64659700F82CB4 /* wordlist.txt */,
 				91431DB32C63E95900F82CB4 /* LaunchScreen.storyboard */,
 				91431DB62C63E95900F82CB4 /* Info.plist */,
 			);
@@ -127,12 +150,32 @@
 			path = WordGuesserUITests;
 			sourceTree = "<group>";
 		};
+		91F94C672C6EA04B006C23C3 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				91F94C652C6EA012006C23C3 /* GuessResultViewModel.swift */,
+				91F94C632C6E9FC6006C23C3 /* LetterResultViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		91F94C682C6EA06F006C23C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91F94C552C6E4A03006C23C3 /* GuessResultsView.swift */,
+				91F94C592C6E5724006C23C3 /* GuessResultsLetterView.swift */,
+				91F94C572C6E4AC7006C23C3 /* GuessResultsView.xib */,
+				91F94C5B2C6E5786006C23C3 /* GuessResultsLetterView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91431DA42C63E95800F82CB4 /* WordGuesser */ = {
+		91431DA42C63E95800F82CB4 /* Passkode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91431DCF2C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "WordGuesser" */;
+			buildConfigurationList = 91431DCF2C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "Passkode" */;
 			buildPhases = (
 				91431DA12C63E95800F82CB4 /* Sources */,
 				91431DA22C63E95800F82CB4 /* Frameworks */,
@@ -142,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = WordGuesser;
+			name = Passkode;
 			productName = WordGuesser;
-			productReference = 91431DA52C63E95800F82CB4 /* WordGuesser.app */;
+			productReference = 91431DA52C63E95800F82CB4 /* Passkode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		91431DBA2C63E95900F82CB4 /* WordGuesserTests */ = {
+		91431DBA2C63E95900F82CB4 /* PasskodeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91431DD22C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "WordGuesserTests" */;
+			buildConfigurationList = 91431DD22C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "PasskodeTests" */;
 			buildPhases = (
 				91431DB72C63E95900F82CB4 /* Sources */,
 				91431DB82C63E95900F82CB4 /* Frameworks */,
@@ -160,14 +203,14 @@
 			dependencies = (
 				91431DBD2C63E95900F82CB4 /* PBXTargetDependency */,
 			);
-			name = WordGuesserTests;
+			name = PasskodeTests;
 			productName = WordGuesserTests;
-			productReference = 91431DBB2C63E95900F82CB4 /* WordGuesserTests.xctest */;
+			productReference = 91431DBB2C63E95900F82CB4 /* PasskodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		91431DC42C63E95900F82CB4 /* WordGuesserUITests */ = {
+		91431DC42C63E95900F82CB4 /* PasskodeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91431DD52C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "WordGuesserUITests" */;
+			buildConfigurationList = 91431DD52C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "PasskodeUITests" */;
 			buildPhases = (
 				91431DC12C63E95900F82CB4 /* Sources */,
 				91431DC22C63E95900F82CB4 /* Frameworks */,
@@ -178,9 +221,9 @@
 			dependencies = (
 				91431DC72C63E95900F82CB4 /* PBXTargetDependency */,
 			);
-			name = WordGuesserUITests;
+			name = PasskodeUITests;
 			productName = WordGuesserUITests;
-			productReference = 91431DC52C63E95900F82CB4 /* WordGuesserUITests.xctest */;
+			productReference = 91431DC52C63E95900F82CB4 /* PasskodeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91431DA02C63E95800F82CB4 /* Build configuration list for PBXProject "WordGuesser" */;
+			buildConfigurationList = 91431DA02C63E95800F82CB4 /* Build configuration list for PBXProject "Passkode" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +262,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91431DA42C63E95800F82CB4 /* WordGuesser */,
-				91431DBA2C63E95900F82CB4 /* WordGuesserTests */,
-				91431DC42C63E95900F82CB4 /* WordGuesserUITests */,
+				91431DA42C63E95800F82CB4 /* Passkode */,
+				91431DBA2C63E95900F82CB4 /* PasskodeTests */,
+				91431DC42C63E95900F82CB4 /* PasskodeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,8 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F94C582C6E4AC7006C23C3 /* GuessResultsView.xib in Resources */,
+				91F94C5C2C6E5786006C23C3 /* GuessResultsLetterView.xib in Resources */,
 				91431DB22C63E95900F82CB4 /* Assets.xcassets in Resources */,
 				91431DB52C63E95900F82CB4 /* Base in Resources */,
+				91431DD92C64659700F82CB4 /* wordlist.txt in Resources */,
 				91431DB02C63E95800F82CB4 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				91431DAD2C63E95800F82CB4 /* ViewController.swift in Sources */,
+				91F94C642C6E9FC6006C23C3 /* LetterResultViewModel.swift in Sources */,
+				91F94C5A2C6E5724006C23C3 /* GuessResultsLetterView.swift in Sources */,
+				91F94C562C6E4A03006C23C3 /* GuessResultsView.swift in Sources */,
+				91F94C662C6EA012006C23C3 /* GuessResultViewModel.swift in Sources */,
 				91431DA92C63E95800F82CB4 /* AppDelegate.swift in Sources */,
 				91431DAB2C63E95800F82CB4 /* SceneDelegate.swift in Sources */,
+				91751C7D2C6AEB8300E113A2 /* Game.swift in Sources */,
+				91F94C5E2C6E9173006C23C3 /* UIView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +338,12 @@
 /* Begin PBXTargetDependency section */
 		91431DBD2C63E95900F82CB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91431DA42C63E95800F82CB4 /* WordGuesser */;
+			target = 91431DA42C63E95800F82CB4 /* Passkode */;
 			targetProxy = 91431DBC2C63E95900F82CB4 /* PBXContainerItemProxy */;
 		};
 		91431DC72C63E95900F82CB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91431DA42C63E95800F82CB4 /* WordGuesser */;
+			target = 91431DA42C63E95800F82CB4 /* Passkode */;
 			targetProxy = 91431DC62C63E95900F82CB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,7 +494,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7B8EWJ4LKW;
+				DEVELOPMENT_TEAM = 9KSD77SLMV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WordGuesser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -455,7 +507,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jking.WordGuesser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jking.passkode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,7 +522,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7B8EWJ4LKW;
+				DEVELOPMENT_TEAM = 9KSD77SLMV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WordGuesser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -483,7 +535,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jking.WordGuesser;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jking.passkode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,7 +559,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordGuesser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordGuesser";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passkode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Passkode";
 			};
 			name = Debug;
 		};
@@ -527,7 +579,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordGuesser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordGuesser";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passkode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Passkode";
 			};
 			name = Release;
 		};
@@ -570,7 +622,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91431DA02C63E95800F82CB4 /* Build configuration list for PBXProject "WordGuesser" */ = {
+		91431DA02C63E95800F82CB4 /* Build configuration list for PBXProject "Passkode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91431DCD2C63E95900F82CB4 /* Debug */,
@@ -579,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91431DCF2C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "WordGuesser" */ = {
+		91431DCF2C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "Passkode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91431DD02C63E95900F82CB4 /* Debug */,
@@ -588,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91431DD22C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "WordGuesserTests" */ = {
+		91431DD22C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "PasskodeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91431DD32C63E95900F82CB4 /* Debug */,
@@ -597,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91431DD52C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "WordGuesserUITests" */ = {
+		91431DD52C63E95900F82CB4 /* Build configuration list for PBXNativeTarget "PasskodeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91431DD62C63E95900F82CB4 /* Debug */,
