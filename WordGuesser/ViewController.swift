@@ -76,7 +76,7 @@ class ViewController: UIViewController {
     let resultsView = GuessResultsView.loadFromNib()
     resultsView.setupResult(results)
     stackView.addArrangedSubview(resultsView)
-    
+    resultsView.flipToFront()
     //TODO: Scroll to bottom of StackView
   }
   
@@ -109,9 +109,9 @@ class ViewController: UIViewController {
   }
   
   // Bug when touching the bottom of the screen
-  open override var preferredScreenEdgesDeferringSystemGestures: UIRectEdge {
-      return .all
-  }
+//  open override var preferredScreenEdgesDeferringSystemGestures: UIRectEdge {
+//      return .all
+//  }
 }
 
 
